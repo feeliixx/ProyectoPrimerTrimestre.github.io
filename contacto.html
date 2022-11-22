@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Pedido</title>
 </head>
+
 <body>
-    
+
+    <div style="background-color:gray ; width: 1200px; margin: auto; ">
+
+        <header align="center">
+            <h1 style="font-size: 75px;">El Buen Gusto</h1>
+            <h2>Haz tu pedido de forma sencilla</h2>
+            <div align="center">
+                <a href="galeriaProyecto.html">Galería</a>
+                <a href="index.html">Página de Inicio</a>
+                <a href="situacion.html">Situación</a>
+            </div>
+            <img src="../feeliixx.github.io/Imagenes/proyecto 3.jpg" width="700" height="300">
+            <h2>El primer pedido no tendrá gastos de envío</h2>
+        </header>
+
+        <div align="center" style="width: 600px;left: 5px; top: 355px; background-color:lightgray;border: 3px 
+        solid;display: block;margin:0 auto; ">
+
+
+            <table align="center" style="left: 10px;">
+                <tr>
+                    <td>
+                        <div class="contact_form">
+
+                            <div class="formulario">
+                                <h1>Haz tu pedido aquí</h1>
+                                <h3>Sin gastos de envío</h3>
+
+
+                                <form action="submeter-formulario.php" method="post">
+
+
+                                    <p>
+                                        <label for="nombre" class="colocar_nombre">Nombre
+                                            <span class="obligatorio">-</span>
+                                        </label>
+                                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                                            placeholder="Nombre">
+                                    </p>
+
+                                    <p>
+                                        <label for="email" class="colocar_email">Email
+                                            <span class="obligatorio">-</span>
+                                        </label>
+                                        <input type="email" name="introducir_email" id="email" required="obligatorio"
+                                            placeholder="Email">
+                                    </p>
+
+                                    <p>
+                                        <label for="telefone" class="colocar_telefono">Teléfono
+                                            <span class="obligatorio">-</span>
+                                        </label>
+                                        <input type="tel" name="introducir_telefono" id="telefono"
+                                            placeholder="Escribe tu teléfono">
+                                    </p>
+
+                                    <p>
+                                        <label for="pedido" class="colocar_asunto">Pedido
+                                            <span class="obligatorio">-</span>
+                                        </label>
+                                        <input type="text" name="introducir_pedido" id="pedido" required="obligatorio"
+                                            placeholder="Realiza tu pedido">
+                                    </p>
+
+                                    <p>
+                                        <label for="metodo de Pago" class="colocar_mensaje">Método de Pago
+                                            <span class="obligatorio">-</span>
+                                        </label>
+                                        <input type="text" name="introducir_pago" id="pago" required="obligatorio"
+                                            placeholder="Introduce aquí tu método de pago">
+                                    </p>
+
+                                    <button type="submit" name="enviar_formulario" id="enviar">
+                                        <p>Enviar</p>
+                                    </button>
+
+                            </div>
+        </div> 
+    </div>
 </body>
+
 </html>
